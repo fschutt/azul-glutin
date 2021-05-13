@@ -11,7 +11,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-glutin = { path = "../glutin" }
+glutin = { path = "../glutin", package = "azul-glutin" }
 winit = "0.24.0"
 takeable-option = "0.4"
 image = "0.21"
